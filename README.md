@@ -16,10 +16,10 @@ MacOS 10.14.0 (Mojave)
 - Check your docker and docker-compose versions
 - Open "A" terminal, start app: ```docker-compose up -d --build```
 - Open "B" terminal, watch log: ```docker-compose logs -f```
-- Stop fluent on "A": ```docker stop fluent```
+- Stop fluent on "A": ```docker stop fluentd```
 - Check your logs on "B": fluent gracefully stoped
 - Wait 6 seconds
-- Start fluent on "A": ```docker start fluent```
+- Start fluent on "A": ```docker start fluentd```
 - Check your logs on "B": check "msg": _number,_ **the numbering is not continuous.**
 
 It is reproducible without docker-compose (docker run).
