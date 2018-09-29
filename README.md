@@ -15,7 +15,7 @@ MacOS 10.14.0 (Mojave)
 - Clone this repo
 - Check your docker and docker-compose versions
 - Open "A" terminal, start app: ```docker-compose up -d --build```
-- Open "B" terminal, watch log: ```docker-compose log -f```
+- Open "B" terminal, watch log: ```docker-compose logs -f```
 - Stop fluent on "A": ```docker stop fluent```
 - Check your logs on "B": fluent gracefully stoped
 - Wait 6 seconds
