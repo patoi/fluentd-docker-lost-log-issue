@@ -1,5 +1,7 @@
 # Some log records are missing after restarting fluentd
 
+Docker issue: https://github.com/moby/moby/issues/37935
+
 ```
 docker -v
 Docker version 18.06.1-ce, build e68fc7a
